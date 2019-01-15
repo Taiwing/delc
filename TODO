@@ -1,0 +1,3 @@
+- add options to only remove classic C comments or C++ comments
+- maybe add recursivity
+- maaaaaaaybe handle pre-function comments (would probably add a lot of code)
