@@ -5,4 +5,6 @@
   option to deactivate it)
 - maybe add an option to not remove white characters left when delc is done
   (seems useless to me, but who knows ?)
+- maybe add an option to create copies of the files without affecting the
+  originals (or an option to create backups of the original files)
 - maaaaaaaybe handle pre-function comments (would probably add a lot of code)

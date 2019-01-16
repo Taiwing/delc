@@ -82,7 +82,7 @@ for i in range(0, len(args)):
             j += len(line)
             skip -= 1
         content = content + line
-
+    file.close() # untested, but shouldn't be a problem
     file_len = len(content)
     while j < file_len:
         if content[j] == '/':
