@@ -1,3 +1,8 @@
 - add options to only remove classic C comments or C++ comments
 - maybe add recursivity
+- maybe add an option to remove superfluous empy lines after delc is done (or
+  when removing comments) (maybe even make it the default behaviour, with an
+  option to deactivate it)
+- maybe add an option to not remove white characters left when delc is done
+  (seems useless to me, but who knows ?)
 - maaaaaaaybe handle pre-function comments (would probably add a lot of code)

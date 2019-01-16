@@ -10,3 +10,11 @@ options:
 	-h | --help:			print this
 	-s | --skip count: 		delc will skip the 'count' first lines
 							to avoid removing any header
+
+Additional informations:
+By default the 'skip' count is set to 12, which is the length of the 42 header
+with the new line, so that it is not removed by delc. Also, delc doesn't just
+remove the comments, it also removes any superfluous white characters in the
+file. If a comment takes an entire line, it deletes the preceding new line.
+It is to be noted that if comments are separated by new lines, they are going
+to stay after delc is done, as delc only removes one new line by comment.
