@@ -1,3 +1,5 @@
+- add an case to remove the first empty line when removing a comment on the
+  first line with a skip of 0
 - add options to only remove classic C comments or C++ comments
 - maybe add recursivity
 - maybe add an option to remove superfluous empy lines after delc is done (or
